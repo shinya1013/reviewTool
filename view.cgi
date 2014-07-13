@@ -54,7 +54,7 @@ for rev in ${revision_list[@]};
 	do
 		declare -a file_list=();
 		# 「rev, 修正区分, ファイル名」で出力。形式はCSV
-		echo $rev,$file_info_str,$((rev - 1));
+		echo $rev,$file_info_str;
 	done
 done
 
